@@ -1,0 +1,7 @@
+Audience: CS Student
+Venue: README on GitHub Pages
+Purpose: Explain how to host a resume on GitHub Pages.
+Additional purpose: Introduce and demonstrate the principles of Andrew Etter's book Modern Technical Writing
+Desired Reaction: The student learns the benefits of writing a resume in Markdown and hosting it online. They understand the process of using Markdown, git, and GitHub pages to do this, and feel well-equipped to make their own GitHub page with a Markdown resume using the instructions. 
+Vocabulary: Use technical terms when talking about general development, but avoid git-specific or Markdown-specific terms without properly defining/explaining them.
+Tone: Be clear, concise, and objective. Format the instructions as imperative sentences.

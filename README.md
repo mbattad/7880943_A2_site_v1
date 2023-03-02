@@ -1,5 +1,21 @@
 # README
 
+![gif][https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/contrib/tutorial.webp]
+
+# Prerequisites
+
+# Install
+
+# Setup
+
+# Deployment
+
+# Known bugs
+
+# Troubleshooting
+
+# Contact information
+
 # Begin draft
 > 1. follow hugo quickstart
 > 2. PUBLISH site before committing
