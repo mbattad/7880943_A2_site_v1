@@ -3,13 +3,20 @@
 # Purpose
 This tutorial will show you how to use a static site generator with GitHub Pages to host a Markdown-formatted resume online.
 
-Additionally, it will explain and demonstrate technical writing principles as described by Andrew Etter in his book, Modern Technical Writing (linked in [More Resources](#more-resources)).
+## Why should I follow this guide?
+Using Markdown, GitHub, and a static site generator for your resume has two main advantages, described in more detail by Andrew Etter in his book, Modern Technical Writing (linked in [More Resources](#more-resources)).
+
+### It's easier for you to update
+Etter emphasizes Markdown for living documents, such as a resume that you'll continually be updating with new experience and skills.
+
+### It's easier for others to view
+Hosting your resume online can get you better exposure to employers. Employers can reference your resume at any time without having to request or download extra files. Furthermore, this resume format uses technological tools like Markdown, static site generators, and GitHub version control. This demonstrates curiosity and willingness to learn about various computer science concepts, which is attractive to employers!
 
 # Prerequisites
 - A resume formatted in Markdown
     - See [More Resources](#more-resources) for an interactive Markdown tutorial.
 - A GitHub account
-- Latest version of go language installed
+- The latest version of [go language](https://go.dev/doc/install) installed
 
 # Instructions
 
@@ -54,11 +61,8 @@ For a repository page, set `baseURL` to `https://www.[your GitHub username].gith
 ### You haven't published your site with the `hugo` command
 The `gh-pages.yml` file looks for a directory named `public` in your source files to display on the GitHub Page. This directory is generated upon running the `hugo` command. Be sure to run this command, then `commit` and `push` the newly generated files to your website's repository. The GitHub Action we added will automatically update the `gh-pages` branch, which GitHub Pages will use to display your website.
 
-### You've set your deployment source to a GitHub Action instead of a branch
-
-
-## Why should I host my resume online?
-Hosting your resume online can get you better exposure to employers. Employers can reference your resume at any time without having to request or download extra files. Furthermore, this resume format uses technological tools like Markdown, static site generators, and GitHub version control. This demonstrates curiosity and willingness to learn about various computer science concepts, which is attractive to employers!
+### You've set your deployment source setting to a GitHub Action instead of a branch
+Although we use a GitHub Action during deployment, the deployment source setting must be set to "branch." The Action in `gh-pages` *creates* the branch that GitHub pages *deploys,* but doesn't perform the deployment itself.
 
 ## Can I publish my GitHub page and keep my repository private?
 Yes! The page will be publicly available regardless, but you can still host it while keeping the source repository private on GitHub.
