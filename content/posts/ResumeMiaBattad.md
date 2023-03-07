@@ -5,7 +5,7 @@ draft: true
 ---
 
 # Mia Battad
-(XXX) XXX-XXXX | [E-mail](battadm@myumanitoba.ca) | [LinkedIn](linkedin.com/in/mia-battad)
+[E-mail](battadm@myumanitoba.ca) | [LinkedIn](linkedin.com/in/mia-battad)
 
 # Education
 ## **B.Sc. Computer Science Major** (Co-op option)
