@@ -29,7 +29,8 @@ Hosting your resume online can get you better exposure to employers. Employers c
 Your **repository** is where you'll store all of your files, including your Markdown resume, any assets it uses, and any source code you use for your website. We will use GitHub to make an empty repository.
 
 1. Log into your GitHub account.
-2. Click the green "New" button. (add diagram here)
+2. Click the green "New" button.
+![The New repository button on GitHub](diagrams/new_repo_button.png)
 3. Configure your repository.
     - Your repository can have any name you'd like! You can rename it at any time.
     - Your repository can be either public or private. As implied by the names, all files and changelogs in a public repository can be seen by anybody, whereas those in a private repository can only be seen by you.
@@ -43,13 +44,13 @@ To add files to our repository, we need a copy of it on our local computer. Usin
 
 5. Copy the link to your GitHub repository.
     - This will usually follow the format `https://github.com/[your GitHub username]/[your repository name]`. You can also find a link on your repository's page, under **Code** > **Local** > **HTTPS**.
+![The dropdown showing the repository's URL](diagrams/clone_repo_url.png)
 6. Open the folder on your local computer where you want to store your repository.
 7. Open your command line application in this folder.
     - For Windows users, the native Windows command line applications will not work with these instructions. You can use Git Bash, which comes with Git for Windows.
     - You can find a short introduction to common commands in [More Resources](#more-resources). The two most important ones for this step are:
         - To make sure you're in the right folder, run the command `pwd` (print working directory). This will output the path of the folder you're in.
         - To move directories, run the command `cd [folder path]` (change directory). This will change locations to whichever path you specify.
-        
 8. Run the command `git clone [your repository link]`.
     - This creates a new folder named after your repository. Whatever you change in this folder, you can synchronize with Git so that those changes appear in your repository on the GitHub cloud.
 
@@ -90,6 +91,8 @@ We may want to preview our changes on our own computer before publishing our web
     - When you're ready to stop hosting the server, enter `Ctrl+C` in the command line window where you started it.
 >Note: This website can change dynamically. You can edit your content or configurations while the server is running, and it'll update immediately to reflect those changes!
 
+![The URL outputted by the hugo server command](diagrams/hugo_server_-D_output.png)
+
 ## Prepare for publishing
 We're almost ready to publish our site, but we have a few more changes to make. We need to make our resume post official, then synchronize our GitHub cloud repository with our local one using three Git actions: **adding**, **committing**, and **pushing**.
 
@@ -112,10 +115,16 @@ We're finally ready to release our website to the world! We'll use GitHub's buil
 37. Click the dropdown menu that says **main**.
 38. Enter **gh-pages** in the textfield labelled **"Find or create a branch…"**.
 >Note: This creates a new **branch** in your repository. A branch is a version of your repository that "branches" off of the **main** code, called the main branch. By adding a branch, you can make changes to your repository without affecting the main code: this is often used to test new features or bug fixes without messing up working code. In this case, we use a separate branch to store extra files that GitHub Pages needs to serve our Hugo site.
+
+![The dropdown to create a new repository branch](diagrams/create_branch.png)
+
 38. Go to **Settings** > **Pages** > **Build and deployment** in your repository on GitHub.
 39. Set **Source** to **Deploy from a branch**.
 40. Set the dropdown menus underneath to **gh-pages** and **/ (root)**.
-41. Click **Save**.
+
+![The GitHub Pages settings page](diagrams/pages_settings.png)
+
+41. Click the **Save** button.
 
 ## Publish your website!
 The **GitHub Action workflow** we added earlier will serve our website on GitHub Pages as soon as we sync our repository!
@@ -144,9 +153,9 @@ Congratulations! You should now have a working website with your lovely resume a
 # Authors and Acknowledgements
 This tutorial was written by:
 - Mia Battad (that's me!)
-- Jiehao Lai ([]() on GitHub)
-- Yash Vyas ([]() on GitHub)
-- Yirong Wang ([]() on GitHub)
+- Jiehao Lai ([Onekila](https://github.com/Onekila/) on GitHub)
+- Yash Vyas ([yash-vyas97](https://github.com/yash-vyas97/) on GitHub)
+- Yirong Wang ([YWYirong](https://github.com/YWYirong/) on GitHub)
 
 With acknowledgements to:
 - Garen Torikian ([gjtorikian](https://github.com/gjtorikian) on GitHub), creator of the interactive Markdown tutorial
