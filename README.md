@@ -93,6 +93,12 @@ We may want to preview our changes on our own computer before publishing our web
 
 ![The URL outputted by the hugo server command](diagrams/hugo_server_-D_output.png)
 
+Here's what mine looks like:
+
+![Demonstration gif of launching the site](diagrams/launch_demo.gif)
+
+Your site will look different! Instead of Ananke, I used a theme called [Neofeed](https://github.com/victoriadrake/neofeed-theme), which requires a lot more configuration.
+
 ## Prepare for publishing
 We're almost ready to publish our site, but we have a few more changes to make. We need to make our resume post official, then synchronize our GitHub cloud repository with our local one using three Git actions: **adding**, **committing**, and **pushing**.
 

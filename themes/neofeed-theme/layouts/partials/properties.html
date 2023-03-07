@@ -1,0 +1,11 @@
+<div class="flex properties__row  properties">
+    <div class="flex left properties">
+        <span class="properties">
+        </span>
+    </div>
+    <div class="flex right">
+        {{ range (.GetTerms "tags") }}
+        <a class="p-category properties" id="tag" href="{{ .Permalink }}">#{{.LinkTitle}}</a>
+        {{ end }}
+    </div>
+</div>

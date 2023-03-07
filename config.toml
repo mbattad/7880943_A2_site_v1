@@ -1,4 +1,12 @@
 baseURL = 'https://mbattad.github.io/7880943_A2_site_v1'
 languageCode = 'en-us'
-title = '3040 A2'
-theme = 'ananke'
+title = 'Mia Battad on GitHub'
+theme = 'neofeed-theme'
+
+[author]
+    name = "Mia Battad"
+    image = "https://64.media.tumblr.com/08149227a5f0a74290369dc2753e8f8f/ae4e3c6c02159022-e2/s1280x1920/f1705ed0d4fca7eb37a6ad07ce49664806caf4f9.pnj"
+    about = "aspiring technical communicator!"
+
+[params]
+    skin = "macintosh"
