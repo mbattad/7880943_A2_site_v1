@@ -22,7 +22,7 @@
 <p><em>AWS Thinkbox, MB | 2022</em></p>
 <ul>
 <li>Augmented support for third-party software licensing in AWS&rsquo; creative tools suite</li>
-<li>Integrated changes into existing deployments, prioritizing data security and service scalability</li>
+<li>Integrated changes into the existing Go, Python, and TypeScript stack, prioritizing data security and service scalability</li>
 </ul>
 <h2 id="junior-tools-developer-co-op">Junior Tools Developer, Co-op</h2>
 <p><em>Ubisoft Winnipeg, MB | 2022</em></p>
@@ -33,14 +33,14 @@
 <h2 id="coding-teacher">Coding Teacher</h2>
 <p><em>Code Ninjas Bridgwater, Winnipeg, MB | 2019-2021</em></p>
 <ul>
-<li>Instructed children ages 7-14 in coding fundamentals</li>
-<li>Built relationships with returning children; gave personalized help according to their learning styles</li>
+<li>Instructed children ages 7-14 in coding fundamentals using Scratch and JavaScript</li>
+<li>Built relationships with returning children; personalized teaching approaches according to their learning styles</li>
 </ul>
 <h1 id="extracurriculars-and-projects">Extracurriculars and Projects</h1>
 <h2 id="vp-events-computer-science-students-association">VP Events, Computer Science Students Association</h2>
 <p><em>University of Manitoba | 2022-present</em></p>
 <ul>
-<li>Coordinating events for computer science students to offer social and academic support</li>
+<li>Planning and organizing events for computer science students to offer social and academic support</li>
 </ul>
 <h2 id="social-media-coordinator-women-in-computer-science">Social Media Coordinator, Women in Computer Science</h2>
 <p><em>University of Manitoba | 2020-2022</em></p>
@@ -54,6 +54,6 @@
 </blockquote>
 <ul>
 <li>Won the <strong>2021 Accelerator Award</strong> for impactful and innovative use of AI for social good</li>
-<li>Built an AI model that scans a user&rsquo;s Twitter timeline for topics and sentiment</li>
+<li>Built an AI model with Python, PyTorch and Matlab that scans a user&rsquo;s Twitter timeline for topics and sentiment</li>
 <li>Prototyped a mobile app that uses this model to inform users when topics on their social media feed could impact their mental health</li>
 </ul> ]]></content:encoded></item></channel></rss>
